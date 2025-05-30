@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTAHub.AppHost", "PTAHub.AppHost\PTAHub.AppHost.csproj", "{EF7823CD-6FCA-46C8-AAD8-56C6940407C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTAHub.ServiceDefaults", "PTAHub.ServiceDefaults\PTAHub.ServiceDefaults.csproj", "{AB519755-4708-14E4-3B94-D43C499D6C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTAHub.ApiService", "PTAHub.ApiService\PTAHub.ApiService.csproj", "{6C3C64E1-3B74-F0C5-B25D-AEC31774F5E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTAHub.Web", "PTAHub.Web\PTAHub.Web.csproj", "{E713C68A-59E5-D43B-C2DC-7BAB3422DA88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\copilot-instructions.md = ..\copilot-instructions.md
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF7823CD-6FCA-46C8-AAD8-56C6940407C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7823CD-6FCA-46C8-AAD8-56C6940407C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7823CD-6FCA-46C8-AAD8-56C6940407C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7823CD-6FCA-46C8-AAD8-56C6940407C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB519755-4708-14E4-3B94-D43C499D6C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB519755-4708-14E4-3B94-D43C499D6C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB519755-4708-14E4-3B94-D43C499D6C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB519755-4708-14E4-3B94-D43C499D6C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C3C64E1-3B74-F0C5-B25D-AEC31774F5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3C64E1-3B74-F0C5-B25D-AEC31774F5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3C64E1-3B74-F0C5-B25D-AEC31774F5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3C64E1-3B74-F0C5-B25D-AEC31774F5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E713C68A-59E5-D43B-C2DC-7BAB3422DA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E713C68A-59E5-D43B-C2DC-7BAB3422DA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E713C68A-59E5-D43B-C2DC-7BAB3422DA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E713C68A-59E5-D43B-C2DC-7BAB3422DA88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {617C2F38-AA0F-47DB-A663-7B15F10421CC}
+	EndGlobalSection
+EndGlobal
